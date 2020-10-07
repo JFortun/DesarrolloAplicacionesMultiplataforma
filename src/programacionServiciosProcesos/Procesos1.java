@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.Arrays;
 public class Procesos1
 {
+	
+	// Ejecutar un proceso indicado.
+	
 	public static void main(String[] args) throws IOException
 	{
 		if (args.length <= 0)

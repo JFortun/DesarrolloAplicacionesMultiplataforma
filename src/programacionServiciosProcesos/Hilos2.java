@@ -2,6 +2,9 @@ package programacionServiciosProcesos;
 
 public class Hilos2 extends Thread
 {
+	// En este caso los dos procesos Uno y Dos van paso a paso en paralelo realizando las tareas
+	// indicadas.
+	
 	public Hilos2(String cadena)
 	{
 		super(cadena);

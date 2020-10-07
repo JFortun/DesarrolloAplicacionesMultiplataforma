@@ -2,6 +2,11 @@ package programacionServiciosProcesos;
 
 public class Hilos1 extends Thread
 {
+	// Se han creado tres objetos de la clase ThreadEjemplo1 y se han echado a correr, cada
+	// uno en paralelo con los otros. Si ejecutamos de nuevo, podemos obtener un resultado
+	// totalmente diferente a lo de antes. El caso es que independientemente de la aleatoriedad
+	// del retardo, los hilos se ejecutan a la vez.
+
 	String nombre;
 	int retardo;
 	// Constructor
