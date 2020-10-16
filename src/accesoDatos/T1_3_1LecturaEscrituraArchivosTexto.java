@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class LecturaEscrituraArchivosTexto {
+public class T1_3_1LecturaEscrituraArchivosTexto {
 
 	private static String FILE_NAME = "C:\\prueba.txt";
 	private static char BUSCAR = 'a';

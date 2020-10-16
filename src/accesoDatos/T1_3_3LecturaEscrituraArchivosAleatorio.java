@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.Scanner;
 
-public class LecturaEscrituraArchivosAleatorio {
+public class T1_3_3LecturaEscrituraArchivosAleatorio {
 
 	static Scanner sc = new Scanner(System.in);
 	static RandomAccessFile archivo = null;

@@ -2,7 +2,7 @@ package programacionServiciosProcesos;
 
 import java.io.IOException;
 import java.util.Arrays;
-public class Procesos1
+public class T1_4Procesos
 {
 	
 	// Ejecutar un proceso indicado.

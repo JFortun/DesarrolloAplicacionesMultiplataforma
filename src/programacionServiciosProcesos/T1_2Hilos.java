@@ -1,11 +1,11 @@
 package programacionServiciosProcesos;
 
-public class Hilos2 extends Thread
+public class T1_2Hilos extends Thread
 {
 	// En este caso los dos procesos Uno y Dos van paso a paso en paralelo realizando las tareas
 	// indicadas.
 	
-	public Hilos2(String cadena)
+	public T1_2Hilos(String cadena)
 	{
 		super(cadena);
 	}
@@ -19,8 +19,8 @@ public class Hilos2 extends Thread
 	}
 	public static void main(String[] args)
 	{
-		new Hilos2("Uno").start();
-		new Hilos2("Dos").start();
+		new T1_2Hilos("Uno").start();
+		new T1_2Hilos("Dos").start();
 		System.out.println("Termina el programa principal");
 	}
 }

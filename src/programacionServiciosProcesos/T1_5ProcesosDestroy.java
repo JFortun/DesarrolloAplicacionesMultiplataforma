@@ -3,7 +3,7 @@ package programacionServiciosProcesos;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class ProcesosDestroy
+public class T1_5ProcesosDestroy
 {
 	
 	//  Creación de un proceso mediante Runtime para después destruirlo.

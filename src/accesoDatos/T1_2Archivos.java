@@ -2,7 +2,7 @@ package accesoDatos;
 
 import java.io.File;
 
-public class Archivos {
+public class T1_2Archivos {
 
 	public static void main(String[] args) {
 

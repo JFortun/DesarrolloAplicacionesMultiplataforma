@@ -1,18 +1,18 @@
 package programacionServiciosProcesos;
 
-public class Hilos3 implements Runnable
+public class T1_3Hilos implements Runnable
 {
 	// Algo parecido al anterior ejemplo, pero ahora usando la interface Runnable en vez
 	// heredar de Thread.
 	
-	public Hilos3()
+	public T1_3Hilos()
 	{
 		super();
 	}
 	public static void main(String[] args)
 	{
-		new Thread(new Hilos3(),"Uno").start();
-		new Thread(new Hilos3(),"Dos").start();
+		new Thread(new T1_3Hilos(),"Uno").start();
+		new Thread(new T1_3Hilos(),"Dos").start();
 		System.out.println("Termina el programa principal");
 	}
 
