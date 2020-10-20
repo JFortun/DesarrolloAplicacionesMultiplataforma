@@ -2,11 +2,18 @@ package accesoDatos;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.Serializable;
+
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-/*
-public class ModificarSerializarDOM { //NO FUNCIONA
+
+
+public class T1_4_5ModificarSerializarDOM { /*
 
 	public static int annadirDOM (Document doc, String titulo, String autor, String anno) {
 		try {
@@ -33,11 +40,13 @@ public class ModificarSerializarDOM { //NO FUNCIONA
 			Node raiz = doc.getFirstChild();
 			raiz.appendChild(nlibro);
 			return 0;
-		} catch (Exception e) {
+		}
+		catch (Exception e) {
 			e.printStackTrace();
 			return -1;
 		}
 	}
+
 
 	public static int guardarDOMcomoFILE(Document doc) {
 		try {
@@ -55,4 +64,13 @@ public class ModificarSerializarDOM { //NO FUNCIONA
 			return -1;
 		}
 	}
-}*/
+
+	/* Guardar el contenido en un archivo XML
+	TransformerFactory transformerFactory = TransformerFactory.newInstance();
+	Transformer transformer = transformerFactory.newTransformer();
+	DOMSource source = new DOMSource(documento);
+	StreamResult result = new StreamResult(new File("C:\\librosEditado.xml"));
+	transformer.transform(source, result);
+
+	System.out.println("Hecho"); */
+}
